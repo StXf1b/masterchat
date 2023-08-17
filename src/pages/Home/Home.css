@@ -1,0 +1,76 @@
+.home {
+    color:white;
+}
+.imgurl {
+    border-radius:30px;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.message-box {
+    background-color: rgba(0, 0, 0, 0.434);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    width: min-content;
+    box-shadow: 0px 2px 3px 1px rgba(13, 13, 13, 0.5);
+}
+.message-box p {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .message-box {
+        inline-size: 300px;
+    }
+}
+
+.scrolll {
+    overflow-y: scroll;
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 1px rgba(13, 13, 13, 0.5);
+}
+
+.scrolll::-webkit-scrollbar {
+    display: none;
+}
+
+.input-mess {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 3px 1px rgba(13, 13, 13, 0.5);
+}
+
+.send-mess-btn {
+    background-color: #2e3435;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
