@@ -1,8 +1,18 @@
-# React + Vite
+# Master Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple chat app!
+To be able to use it you have to add a .env file to your application with the following variables: VITE_CLERK_PUB_KEY: your cleark key
 
-Currently, two official plugins are available:
+This are the tools that i have used to create the project:
+- [React](https://react.dev/)
+- [Firebase@8](https://firebase.google.com/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Clerk](https://clerk.com/)
+- [React Toastify](https://www.npmjs.com/package/react-toastify)
+- [Date Fns](https://date-fns.org/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- [Live Preview](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Firebase Hosting](https://firebase.google.com/) for hosting live preview
+
